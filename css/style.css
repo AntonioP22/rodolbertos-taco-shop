@@ -81,3 +81,25 @@ select {
     --tertiary-color: #1a2c2f;
     --quaternary-color: #7a2433;
 }
+
+.container {
+    background-color: var(--secondary-color);
+}
+
+.logo {
+    border-radius: 180px;
+}
+
+li {
+    display: inline;
+    margin: 0 1rem;
+    padding-right: 2rem;
+}
+
+.nav {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
