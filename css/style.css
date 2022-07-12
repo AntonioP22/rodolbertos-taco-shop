@@ -103,7 +103,7 @@ body {
     border-radius: 180px;
 }
 
-li {
+.navlist li {
     display: inline;
     margin: 0 1rem;
     padding-right: 2rem;
@@ -111,6 +111,11 @@ li {
 
 .nav {
     padding: 1rem;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
 }
 
 li > a, a:visited {
@@ -129,7 +134,7 @@ li > a, a:visited {
     h1 {
         font-size: 2rem;
     }
-    li {
+    .navlist li {
         display: block;
         margin: 0.5rem 0;
     }
@@ -166,5 +171,28 @@ strong {
 
 .menu {
     background-color: var(--background-color);
+    padding: 2rem;
+}
+
+.menu p {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    max-width: 40rem;
+}
+
+.tacoitem {
+    font-size: 1.5rem;
+    color: black;
+}
+
+dl dd ul li {
+    margin-right: 1.5rem;
+}
+
+dd ul li {
+    padding-top: 1rem;
+}
+
+dd ul li p {
     padding-top: 1rem;
 }
