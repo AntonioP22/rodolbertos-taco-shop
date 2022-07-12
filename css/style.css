@@ -139,3 +139,7 @@ li > a, a:visited {
         width: max-content;
     }
 }
+
+strong {
+    color: var(--quaternary-color);
+}
