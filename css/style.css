@@ -80,6 +80,7 @@ select {
     --secondary-color: #a5b8c8;
     --tertiary-color: #1a2c2f;
     --quaternary-color: #7a2433;
+    --background-color: #dae8e4;
 }
 
 @font-face {
@@ -95,7 +96,7 @@ body {
 }
 
 .container {
-    background-color: var(--secondary-color);
+    background-color: var(--background-color);
 }
 
 .logo {
@@ -138,8 +139,32 @@ li > a, a:visited {
     iframe {
         width: max-content;
     }
+    .location {
+        font-size: 1.2rem;
+    }
 }
 
 strong {
     color: var(--quaternary-color);
+}
+
+.location {
+    background-image: url(https://i.pinimg.com/736x/f7/cd/16/f7cd161bfe4319e7db2bbae7295df27e.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.location h2 {
+    color: var(--quaternary-color);
+}
+
+.location p {
+    color: var(--primary-color);
+}
+
+.menu {
+    background-color: var(--background-color);
+    padding-top: 1rem;
 }
