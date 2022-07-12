@@ -82,6 +82,18 @@ select {
     --quaternary-color: #7a2433;
 }
 
+@font-face {
+    font-family: avacado;
+    src: url(/a-avocado-taco-54305/AvocadoTaco-K7E8W.ttf) format('truetype');
+}
+
+body {
+    font-family: avacado, sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--tertiary-color);
+}
+
 .container {
     background-color: var(--secondary-color);
 }
@@ -100,6 +112,30 @@ li {
     padding: 1rem;
 }
 
-a {
+li > a, a:visited {
     text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+@media (max-width: 811px) {
+    .container {
+        padding: 1rem;
+    }
+    .logo {
+        width: 6rem;
+        height: 6rem;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+    img {
+        margin-top: 1.5rem;
+    }
+    iframe {
+        width: max-content;
+    }
 }
