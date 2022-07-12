@@ -170,7 +170,7 @@ strong {
 }
 
 .menu {
-    background-color: var(--background-color);
+    background: linear-gradient(to bottom, var(--background-color) 0%, var(--quaternary-color) 118%);
     padding: 2rem;
 }
 
